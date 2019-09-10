@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+.header {
+  width: 100%;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.box {
+  margin: 20px;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+button {
+  width: auto;
+  height: auto;
+  padding: 5px;
+}
+
+.swiper {
+  width: 100%;
+  height: 200px;
+  border-bottom: 1px solid #ccc;
+}
+
+.swiper .ant-carousel .slick-slide {
+  text-align: center;
+  height: 200px;
+  line-height: 200px;
+  background: #364d79;
+}
